@@ -41,7 +41,28 @@ class RecipeView extends View {
           this._data.servings
         }</span>
         <span class="recipe__info-text">servings</span>
+
+        <div class="recipe__info-buttons">
+          <button class="btn--tiny btn--increase-servings">
+            <svg>
+              <use href="${icons}#icon-minus-circle"></use>
+            </svg>
+          </button>
+          <button class="btn--tiny btn--increase-servings">
+            <svg>
+              <use href="${icons}#icon-plus-circle"></use>
+            </svg>
+          </button>
+        </div>
       </div>
+
+      <div class="recipe__user-generated">
+      </div>
+      <button class="btn--round">
+        <svg class="">
+          <use href="${icons}#icon-bookmark-fill"></use>
+        </svg>
+      </button>
     </div>
 
 
